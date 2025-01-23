@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Links -->
     <div class="nav">
         <a href="images.html">Image Search</a>
         <a href="advanced.html">Advanced Search</a>
     </div>
 
+    <!-- Search Container -->
     <div class="search-container">
-        <form action="https://www.google.com/search">
-            <input type="text" name="query" placeholder="Search Google...">
-            <input type="submit" value="Google Search">
-        </form>
-
+        <!-- Unified Search Form -->
         <form action="https://www.google.com/search" method="get">
-            <input type="hidden" name="btnI" value="I">
-            <input class="lucky-btn" type="submit" value="I'm Feeling Lucky">
+            <input type="text" name="q" placeholder="Search Google...">
+            <button type="submit" name="btnK" value="Google Search">Google Search</button>
+            <button type="submit" name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
         </form>
     </div>
 </body>
 </html>
+
